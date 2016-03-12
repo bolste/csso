@@ -6,8 +6,8 @@
 
 CSSO (CSS Optimizer) is a CSS minimizer unlike others. In addition to usual minification techniques it can perform structural optimization of CSS files, resulting in smaller file size compared to other minifiers.
 
-[![Originated by Yandex](https://github.com/css/csso/blob/master/docs/yandex.png)](https://www.yandex.com/)
-[![Sponsored by Avito](https://github.com/css/csso/blob/master/docs/avito.png)](https://www.avito.ru/)
+[![Originated by Yandex](https://github.com/css/csso/blob/master/docs/yandex.svg)](https://www.yandex.com/)
+[![Sponsored by Avito](https://github.com/css/csso/blob/master/docs/avito.svg)](https://www.avito.ru/)
 
 ## Install
 
