@@ -45,6 +45,7 @@
     "coveralls": "istanbul cover _mocha --report lcovonly -- -R dot && cat ./coverage/lcov.info | coveralls",
     "travis": "npm run test && npm run coveralls",
     "browserify": "browserify --standalone csso lib/index.js | uglifyjs --compress --mangle -o dist/csso-browser.js",
+    "browserifyOnly": "browserify --standalone csso lib/index.js -o dist/csso-browser.js",
     "gh-pages": "git clone -b gh-pages https://github.com/css/csso.git .gh-pages && npm run browserify && cp dist/csso-browser.js .gh-pages/ && cd .gh-pages && git commit -am \"update\" && git push && cd .. && rm -rf .gh-pages",
     "prepublish": "npm run browserify"
   },
